@@ -147,7 +147,7 @@
     margin-top: 50px;
     margin-left: 130px;
     display: flex;
-    height: 385px;
+    height: 450px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #content1_left{
@@ -156,7 +156,6 @@
     
 }
 #content1_left h2{
-
     margin-bottom: 30px;
 }
 
@@ -233,7 +232,7 @@
 
 #money{
     width: 300px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 260px;
     font-size: 35px;
     color: aqua;
@@ -244,7 +243,7 @@
     height: 35px;
     border-radius: 5px;
     margin-left: 20px;
-    margin-top: 22px;
+    margin-top: 18px;
     background-color: grey;
 }
 
@@ -254,7 +253,167 @@
     height: 35px;
     border-radius: 5px;
     margin-left: 20px;
-    margin-top: 22px;
+    margin-top: 10px;
     background-color: grey;
-    
+}
+
+#num{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: grey;
+}
+#total{
+    display: flex;
+    margin-top: 30px;
+}
+#total_left{
+    display: flex;
+    margin-left: 20px;
+    color: grey;
+}
+#total_right{
+    font-weight: bold;
+    display: flex;
+    margin-left: 235px;
+}
+
+#buy_now_button{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 300px;
+    height: 45px;
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid aqua;
+
+}
+
+#add_cart_button{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 300px;
+    height: 45px;
+    color: aqua;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid aqua;
+}
+
+#add_cart_button img{
+    width: 17px;
+    height: 17px;
+}
+
+#reiview{
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 105px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#head_reiview {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+
+
+.display{
+    display: flex;
+}
+.name{
+    font-weight: bold;
+    margin-left: 10px;
+}.color{
+    color: grey;
+    margin-left: 10px;
+}
+.text{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+#reiview_left{
+    width: 530px;
+    height: 230px;
+}
+
+#reiview_right{
+    width: 510px;
+    height: 225px;
+    margin-left: 80px;
+}
+#reiview_center{
+    display: flex;
+}
+
+#Related{
+    display: flex;
+}
+#Related h2{
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-bottom: 35px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#img_dollar{
+    display: flex;
+    width: 1175px;
+    height: 355px;
+    margin-left: 130px;
+    justify-content: space-around;
+}
+
+.fruit{
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo{
+    display: flex;
+    margin-top: 165px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.text_center{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#input{
+    display: flex;
+    margin-left: 530px;
+    width: 455px;
+    height: 35px;
+}
+
+#input_left input{
+    display: flex;
+    width: 265px;
+    height: 35px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px;
+    border-style: solid none solid solid;
+    border-color: grey;
+}
+
+#input_right #Subscribe_button{
+    width: 110px;
+    height: 35px;
+    background-color: aqua;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: 2px;
+    border-color: aqua;
+    padding: 2px;
 }
