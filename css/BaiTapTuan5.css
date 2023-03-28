@@ -417,3 +417,47 @@
     border-color: aqua;
     padding: 2px;
 }
+#input{
+    margin-bottom: 85px;
+}
+#footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#footer_head{
+    height: 170px;
+}
+.display1{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    width: 730px;
+    justify-content: space-around;
+    margin-left: 335px;
+}
+.display2{
+    display: flex;
+    width: 700px;
+    margin-left: 380px;
+    margin-top: 30px;
+    color: grey;
+}
+.display3{
+    display: flex;
+    width: 700px;
+    margin-left: 380px;
+    margin-top: 20px;
+    color: grey;
+}
+
+#footer_end{
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-around ;
+}
+
+#english{
+    height: 35px;
+    width: 125px;
+}
